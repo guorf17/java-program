@@ -1,0 +1,36 @@
+/**
+ *<p>This is a java project of test.
+ *
+ *<p>Is the first test for the javadoc.
+ *
+ *<p>is {@link String dhfjkdhfj}discussing.
+ *
+ *<p>{@code Main jfkjdkdjfkdkfdjk}
+ *
+ * @author Mengday Zhang
+ * @since 2018/10/4
+ */
+ 
+ 
+ 		/** 默认数量 {@value} */
+ 		
+ 		
+ 				
+		/**
+         *
+	     *jhjhjj.
+         *hgjhdfuihdfjhdui.
+	     *eiuryiuehfiehjgfi.
+	     */
+	     
+	     　* <p>Each player controls a hero. At the beginning of the game, the hero's health is 30 and the attack power is 0. When the hero dies, the game ends and the hero who has not died wins. 
+　*<p>Players can summon followers during the game. There are 7 vacancies on each side of the board that can be used to place the followers. They are lined up from left to right and are called battlefields. When the entourage dies, it will be removed from the battlefield. 
+　* <p>游戏开始后，两位玩家轮流进行操作，每个玩家的连续一组操作称为一个回合。.
+　* <p>每个回合中，当前玩家可进行零个或者多个以下操作：.
+　*<p>1) 召唤随从：玩家召唤一个随从进入战场，随从具有指定的生命值和攻击力。.
+　*<p>2) 随从攻击：玩家控制自己的某个随从攻击对手的英雄或者某个随从。.
+　*<p>3) 结束回合：玩家声明自己的当前回合结束，游戏将进入对手的回合。该操作一定是一个回合的最后一个操作。.
+　* <p>当随从攻击时，攻击方和被攻击方会同时对彼此造成等同于自己攻击力的伤害。受到伤害的角色的生命值将会减少，数值等同于受到的伤害。.
+ *<p>例如，随从 X 的生命值为 HX、攻击力为 AX，随从 Y 的生命值为 HY、攻击力为 AY，如果随从 X 攻击随从 Y，则攻击发生后随从 X 的生命值变为 HX - AY，.
+ *<p>随从 Y 的生命值变为 HY - AX。攻击发生后，角色的生命值可以为负数。.
+ *<p>.
