@@ -5,7 +5,5 @@ public class renWuJueSe {
 		int shengMingzhi;
         int moFaZhi;
         int jingYanZhi;
-        char waiBiao;
-        
-
+        char jueSe;       
 }
