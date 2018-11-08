@@ -4,7 +4,13 @@ import java.util.*;
 import java.util.Scanner;
 //import class zhanChang;
 
-
+/** 
+* @ClassName: Main. 
+* @Description: TODO(这个是主函数 ) .
+* @author Grf
+* @date 2018年11月7日 下午3:24:06 
+*  
+*/
 public class Main {
 	
     //static List<caoZuo> Play[] = new ArrayList[1];
@@ -18,7 +24,14 @@ public class Main {
 	
 	
 	static Scanner scan = new Scanner(System.in);
-
+	
+	/** 
+	* @Title: main 
+	* @Description: TODO(这个是主函数入口 ) .
+	* @param @param args  参数说明 
+	* @return void    返回类型 
+	* @throws 
+	*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -27,7 +40,7 @@ public class Main {
 		 diTu1.display();
 		 
 		caoZuo []Play = new caoZuo[10];
-		 
+		
 		 int n = scan.nextInt();
 		 
 		 String jueSe;
@@ -56,11 +69,35 @@ public class Main {
 		
 }
 
+/** 
+* @ClassName: caoZuo 
+* @Description: 操作类
+* @author Grf
+* @date 2018年10月21日 下午8:43:34 
+*  
+*/
 class caoZuo{
+	/** 
+	* @Fields jueSe : 角色类 
+	*/ 
 	String jueSe;
+	/** 
+	* @Fields posX : 位置变量--X
+	* @Fields posY : 位置变量--Y
+	*/ 
 	int posX,posY;
+	/** 
+	* @Fields ifattack : 非共和国 
+	*/ 
 	boolean ifattack;
 	
+	/** 
+	* <p>Title: </p> 
+	* <p>Description: </p> 
+	* @param js
+	* @param px
+	* @param py 
+	*/
 	caoZuo(String js,int px,int py){
 		jueSe=js;
 		posX=px;

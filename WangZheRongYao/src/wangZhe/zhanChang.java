@@ -2,14 +2,24 @@ package wangZhe;
 import java.util.*;
 //import wangZhe.Main;
 
-class changLiang{
+/** 
+* @ClassName: changLiang 
+* @Description: TODO(这里用一句话描述这个类的作用). 
+* @author Grffghfdh
+* @date 2018年11月7日 下午3:26:05 
+* class changLiang{
 	public static final int hang=10;
 	public static final int lie=10;
 	public static final char jueSeFu[]=new char[] {'1','2','3','4','5','6','7','8','9','X'};
+} 
+*  
+*/
+
+interface diTu{
+	public char diTu[][]=new char [25][50];
 }
 
-class zhanChang{
-	public char diTu[][]=new char [25][50];
+public class zhanChang implements diTu{
 	void initDiTu(){
 		int i,j,n=25,m=50;
 		for(i=0;i<n;i++) {
@@ -41,11 +51,9 @@ class zhanChang{
 		for(i=0;i<n;i++) {
 			for(j=0;j<m;j++) {
 				System.out.print(diTu[i][j]);
-				//System.out.print(" ");
 			}
 			System.out.println();
-		}	
-		
+		}		
 	}
 }
 
